@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000000;
+}
+div {
+	display: block;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+header {
+	margin-top: 100px;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+h1 {
+	font-family: "Raleway";
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+}
+hr {
+	border: none;
+	height: 2px;
+	background-color: #e72424;
+	width: 64px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.info {
+	font-size: 14px;
+	font-weight: 400;
+	color: #86878b;
+	text-align: center;
+	margin-bottom: 67px;
+}
+.main__items {
+	padding-bottom: 105px;
+}
+.items {
+	display: flex;
+	justify-content: space-between;
+}
+.item {
+	max-width: 350px;
+	text-align: center;
+	position: relative;
+	min-height: 180px;
+}
+.title {
+	color: #333333;
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 700;
+	padding: 30px 0px 16px;
+}
+.circle {
+	border: 1px solid #e72424;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 21px;
+}
+.about {
+	background-image: url(../images/fon.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 326px;
+}
+
+.about__title {
+	font-family: "Raleway";
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	padding: 75px 0px 25px;
+	color: #ffffff;
+}
+.line__bottom {
+	background-color: #fff;
+}
+.about__text {
+	padding: 30px 0px -5px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #ffffffcc;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.about__btn {
+	width: 100%;
+	text-align: center;
+}
+.about__btn a {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	padding: 11px 26px;
+}
+.footer {
+	width: 100%;
+	background-color: #000;
+	min-height: 100px;
+	margin-top: -14px;
+}
+.footer ul {
+	text-align: center;
+	list-style: none;
+	padding-top: 30px;
+	padding-right: 80px;
+}
+ul.footer__list li {
+	display: inline;
+	padding-left: 25px;
+}
+.footer__copy {
+	color: #ffffff80;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	margin: auto;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url(../fonts/Raleway-Regular.ttf);
+}
